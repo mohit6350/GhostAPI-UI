@@ -1,0 +1,1 @@
+This is where you define your pages. Each JavaScript or TypeScript file inside this folder becomes a route in your application.

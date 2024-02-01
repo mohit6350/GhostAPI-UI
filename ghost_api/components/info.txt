@@ -1,0 +1,1 @@
+This is where you can place React components that you reuse across multiple pages. For example, you might create a Header.js or Footer.js component.

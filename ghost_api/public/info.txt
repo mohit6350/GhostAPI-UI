@@ -1,0 +1,1 @@
+This folder is for static assets like images, which you can reference in your code using /public/image.jpg.

@@ -1,0 +1,1 @@
+ file in this folder can contain global styles for your entire application.
