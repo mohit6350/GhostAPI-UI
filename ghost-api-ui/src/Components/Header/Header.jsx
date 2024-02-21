@@ -6,8 +6,12 @@ export default function Header() {
   return (
     <div>
         <div className='header'>
-        <h1>Ghost API, Hauntingly Smooth Integration</h1>
-        <img src={LOGO}alt="logo" />
+          <div className='moto'>
+            <h2>Ghost API, Hauntingly Smooth Integration</h2>
+          </div>
+          <div>
+            <img src={LOGO}alt="logo" className='small-logo'/>
+          </div>
         </div>
     </div>
   )

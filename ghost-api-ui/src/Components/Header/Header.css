@@ -1,9 +1,20 @@
 .header{
-    margin: 0;
-    padding: 0px 100px;
+    height: 60px;
     background-color: #1847dd;
     color:#FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.moto{
+    margin-left: 70px;
+    justify-self: center
+}
+
+.small-logo{
+    width: 50px;
+    height: auto;
+    margin-right: 150px;
 }
