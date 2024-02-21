@@ -1,6 +1,9 @@
 # GhostAPI
 An experimental project based on React js and Java. 
 
+# FIGMA design
+https://www.figma.com/file/tzSQZvhv1Kjn1DqywMZQMI/ghostAPI?type=design&node-id=0-1&mode=design&t=AzWzWEY22kWR6l86-0
+
 ========================================================================================
                                         Front-end                                              
 # Technologies/Dependencies
