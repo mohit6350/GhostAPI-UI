@@ -1,12 +1,13 @@
 import React from 'react';
-import './Login.css';
-import mainlogo from './static/mainlogo.svg'
+import './Register.css';
+import backgroundImage from './static/background-image.svg';
 
-export default function Login() {
-    return (
-      <div className='login-parent'>
+export default function Register() {
+  return (
+    <div>
+        <div className='register-parent'>
         <div>
-            <img src={mainlogo} alt="mainlogo" className='logo'/>
+            <img src={backgroundImage} alt="mainlogo" className='logo'/>
         </div>
         <div className='login'>
           <form>
@@ -23,6 +24,6 @@ export default function Login() {
           </form>
         </div>
       </div>
-    )
-  }
-  
+    </div>
+  )
+}
