@@ -7,20 +7,24 @@ export default function Register() {
     <div>
         <div className='register-parent'>
         <div>
-            <img src={backgroundImage} alt="mainlogo" className='logo'/>
+            <img src={backgroundImage} alt="mainlogo" className='register-image'/>
         </div>
-        <div className='login'>
+        <div className='register-form'>
           <form>
-            <label For="uname">Username</label><label style={{color: 'red'}}>*</label> <br />
+            <label For="uname" style={{fontWeight: "bold"}}>Username</label><label style={{color: 'red'}}>*</label> <br />
             <input type="username" className='username'/><br />
-            <label For="password">Password</label><label style={{color: 'red'}}>*</label> <br/>
+            <label For="password" style={{fontWeight: "bold"}}>Password</label><label style={{color: 'red'}}>*</label> <br/>
             <input type="password" className='password'/><br />
-            <div className='buttons'>
-                <button id='login' className='login-button'>Login</button>
-                <button id='signup'>Sign up</button>
+            <label For="password" style={{fontWeight: "bold"}}>Confirm Password</label><label style={{color: 'red'}}>*</label> <br/>
+            <input type="password" className='password'/><br />
+            <div className='register-button-parent'>
+                <div>
+                    <button id='signup' className='signup-button'>Sign up</button>
+                </div>
+                <div style={{marginTop: '8px'}}>
+                    <a href="http://">back to Login</a>
+                </div>
             </div>
-            <br/>
-            <a href="http://">Forgot Password?</a>
           </form>
         </div>
       </div>
