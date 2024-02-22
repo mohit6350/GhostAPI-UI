@@ -9,7 +9,8 @@ export default function Footer(){
     <div>
         <div className='footer'>
           <div className='info'>
-            <h4>Ghost API © 2024 . All Rights.</h4>
+            <h4>Ghost API © 2024 . All rights reserved.</h4>
+            <h5>Mohit Khare</h5>
           </div>
             <div className='social'>
               <ul>

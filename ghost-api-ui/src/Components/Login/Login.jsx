@@ -4,7 +4,7 @@ import mainlogo from './static/mainlogo.svg'
 
 export default function Login() {
     return (
-      <div className='parent'>
+      <div className='login-parent'>
         <div>
             <img src={mainlogo} alt="mainlogo" className='logo'/>
         </div>
