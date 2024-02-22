@@ -14,10 +14,10 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/ghost-api" element={<MainWindow />} />
           <Route path="/register" element={<Register />} />
           {/* Add more routes as needed */}
-          <Route path="/" element={<MainWindow />} />
+          <Route path="*" element={<Login />} />
         </Routes>
         <Sidebar />
         <Footer />
