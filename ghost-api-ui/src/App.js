@@ -19,7 +19,6 @@ function App() {
           {/* Add more routes as needed */}
           <Route path="*" element={<Login />} />
         </Routes>
-        <Sidebar />
         <Footer />
       </div>
     </Router>

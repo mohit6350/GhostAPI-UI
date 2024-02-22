@@ -1,3 +1,31 @@
-.parent{
-    background-color: red;
+.register-parent {
+    display: flex;
+}
+
+.register-image {
+    height: 415px;
+    margin: none;
+}
+
+.register-button-parent {
+    display: flex;
+}
+
+.signup-button {
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.register-form .signup-button:hover {
+    background: #1847dd;
+    color: white;
+}
+
+.register-form {
+    margin-left: 300px;
+    margin-top: 50px;
 }
