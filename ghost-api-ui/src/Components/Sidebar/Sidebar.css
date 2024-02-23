@@ -1,3 +1,30 @@
-.sidebar{
-    background-color: aqua;
-}
+/* Sidebar.css */
+
+.sidebar-parent {
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    position: fixed; /* or position: absolute; */
+    background-color: red;
+    top: 60px;
+  }
+
+  @media (max-width: 768px) {
+    .sidebar-parent {
+      width: 100%; /* Take up full width on smaller screens */
+      top: 0; /* Adjust top positioning as needed */
+    }
+  }
+  
+  .sidebar-parent::-webkit-scrollbar {
+    width: 0; /* For Chrome, Safari, and Opera */
+  }
+  
+  .sidebar-parent::-webkit-scrollbar-thumb {
+    background-color: transparent; /* For Chrome, Safari, and Opera */
+  }
+  
+  .sidebar-parent:hover::-webkit-scrollbar-thumb {
+    background-color: initial; /* Show the scrollbar thumb on hover */
+  }
+  

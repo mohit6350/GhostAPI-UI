@@ -1,0 +1,21 @@
+/* MainWindow.css */
+
+.mainContainer {
+    display: flex;
+  }
+  
+  .backgroundImageContainer {
+    flex: 1;
+    position: relative;
+  }
+  
+  @media (max-width: 768px) {
+    .mainContainer {
+      flex-direction: column;
+    }
+  
+    .sidebarContainer {
+      width: 100%;
+    }
+  }
+  
