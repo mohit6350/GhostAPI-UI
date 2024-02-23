@@ -1,11 +1,17 @@
-import React from 'react'
-import './MainWindow.css'
-import sideview from './static/bgImage.svg'
+// MainWindow.js
+
+import React from 'react';
+import './MainWindow.css';
+import bgImage from './static/bgImage.svg';
+import Sidebar from '../Sidebar/Sidebar';
 
 export default function MainWindow() {
   return (
-    <div className='mainWindow'>
-      <img src={sideview} alt="sideview" />
+    <div className='mainContainer'>
+      <Sidebar /> 
+      <div className='backgroundImageContainer'>
+        <img src={bgImage} alt="backgroundImg" />
+      </div>
     </div>
-  )
+  );
 }
