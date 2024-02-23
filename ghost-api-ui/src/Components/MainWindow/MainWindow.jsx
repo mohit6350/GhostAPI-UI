@@ -1,6 +1,6 @@
 import React from 'react'
 import './MainWindow.css'
-import sideview from './main win/sideview.svg'
+import sideview from './static/bgImage.svg'
 
 export default function MainWindow() {
   return (
